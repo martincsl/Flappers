@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+  
+body {
+  font: 200 14px Roboto, sans-serif;
+	line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+textarea {
+  width:100%;
+  resize:none;
+  font-size: 14px;
+  border-style: solid;
+  border: 1px solid black;
+}
+
+.error-helper-text {
+  color:yellow;
+  font-size: 12px;
+}
+
+

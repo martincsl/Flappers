@@ -1,0 +1,43 @@
+.video-container {
+    position: absolute;
+    top: 64px; 
+    left: 0px; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .video-container:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .video-section-info {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    z-index:2;
+  }
+  
+  .section-description{
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    z-index:2;
+  }
